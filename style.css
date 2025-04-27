@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #f7f9fa; margin: 0; padding: 0; }
+.container { max-width: 900px; margin: 30px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 32px; }
+h1 { text-align: center; color: #2d3a4b; margin-bottom: 24px; }
+.input-section, .approach-section, #steps-section, #result-section { margin-bottom: 32px; }
+textarea { width: 100%; font-size: 1rem; border-radius: 6px; border: 1px solid #cfd8dc; padding: 10px; margin-bottom: 10px; }
+button { background: #1976d2; color: #fff; border: none; border-radius: 5px; padding: 10px 18px; font-size: 1rem; cursor: pointer; margin-right: 8px; transition: background 0.2s; }
+button:disabled { background: #b0bec5; cursor: not-allowed; }
+button:hover:not(:disabled) { background: #1565c0; }
+select { font-size: 1rem; padding: 6px 10px; border-radius: 5px; border: 1px solid #b0bec5; }
+#steps { margin-top: 12px; min-height: 60px; }
+.step-row { background: #e3f2fd; border-radius: 6px; padding: 10px; margin-bottom: 8px; border-left: 4px solid #1976d2; }
+#result-table { margin-top: 12px; }
+table { border-collapse: collapse; width: 100%; background: #fafbfc; }
+th, td { border: 1px solid #b0bec5; padding: 8px 12px; text-align: left; }
+th { background: #1976d2; color: #fff; }
+tr.highlight { background: #ffe082; }
+@media (max-width: 700px) { .container { padding: 10px; } textarea { font-size: 0.95rem; } }

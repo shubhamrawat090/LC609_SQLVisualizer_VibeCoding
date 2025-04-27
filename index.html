@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Boring Movies Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Not Boring Movies - Algorithm Visualizer</h1>
+        <div class="input-section">
+            <h2>Input Cinema Table</h2>
+            <textarea id="input-table" rows="7" cols="60">id,movie,description,rating
+1,War,great 3D,8.9
+2,Science,fiction,8.5
+3,irish,boring,6.2
+4,Ice song,Fantacy,8.6
+5,House card,Interesting,9.1</textarea>
+            <button id="load-btn">Load Table</button>
+        </div>
+        <div class="approach-section">
+            <h2>Select Approach</h2>
+            <select id="approach-select">
+                <option value="sql">SQL Query</option>
+                <option value="js">JavaScript Code</option>
+            </select>
+            <button id="visualize-btn">Visualize Steps</button>
+        </div>
+        <div id="steps-section">
+            <h2>Visualization Steps</h2>
+            <div id="steps"></div>
+            <button id="next-step-btn" disabled>Next Step</button>
+        </div>
+        <div id="result-section">
+            <h2>Final Result</h2>
+            <div id="result-table"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
