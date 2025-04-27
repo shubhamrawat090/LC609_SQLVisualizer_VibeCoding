@@ -51,6 +51,14 @@ Result table:
 +----+------------+-------------+--------+
 ```
 
+## AI Prompt
+
+{{{ PASTE YOUR LEETCODE QUESTION DESCRIPTION HERE }}}
+
+I have difficulties understanding this question. Create an algorithm visualizer for this. Where you have multiple approaches (sql; codes) And I can see them work visually for the given inputs.
+
+Create this in HTML CSS JS
+
 ## How to Run
 
 1. **Clone or Download the Repository**
